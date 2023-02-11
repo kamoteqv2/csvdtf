@@ -21,7 +21,7 @@ c:\csvdtf>dir
  Volume in drive E is New Volume
  Volume Serial Number is D8B5-C2C0
 
- Directory of E:\python\csvdtf
+ Directory of c:\csvdtf
 
 02/11/2023  07:53 AM    <DIR>          .
 02/11/2023  07:53 AM    <DIR>          ..
