@@ -1,6 +1,6 @@
 # csvdtf
 
-This script, named csvdtf.exe, is designed to process a CSV file that contains named 'timestamp' (in seconds since the epoch). 
+This script, named csvdtf.exe, is designed to process a CSV file that contain a column named 'timestamp' (in seconds since the epoch). 
 
 The script will read in the data from the specified CSV file, convert the timestamp column to a formatted datetime column, and then add the converted datetime as a new column to the data. The script will then export the processed data to a new CSV file with the added datetime column. 
 
