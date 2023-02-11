@@ -15,7 +15,7 @@ Note that the script is only able to process CSV files that contain a column wit
 
 **Sample Command**
 
-Showing the sample csv and the executable file
+***Showing the sample csv and the executable file***
 ```
 c:\csvdtf>dir
  Volume in drive E is New Volume
@@ -31,7 +31,7 @@ c:\csvdtf>dir
                2 Dir(s)  31,204,573,184 bytes free
 ``` 
 
-Showing the input csv file content
+***Showing the input csv file content***
 ```
 c:\csvdtf>type sample.csv
 timestamp,temperature,humidity
@@ -42,7 +42,7 @@ timestamp,temperature,humidity
 1675951680,20.3,44
 ```
 
-Running the command with specified paramaters
+***Running the command with specified paramaters***
 ```
 c:\csvdtf>***csvdtf.exe*** --input sample.csv  --output sample_out.csv
 ```
