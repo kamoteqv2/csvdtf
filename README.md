@@ -58,5 +58,4 @@ timestamp,temperature,humidity,datetime
 1675951680,20.3,44,2023-02-09 14:08:00
 ``` 
 
-**Note**
-Credit: This application was developed by KMQ Tech TV (https://www.youtube.com/@kamoteqv2), a Youtube channel dedicated to teaching and improving DIY technology.
+***Credit:*** This application was developed by KMQ Tech TV (https://www.youtube.com/@kamoteqv2), a Youtube channel dedicated to teaching and improving DIY technology.
