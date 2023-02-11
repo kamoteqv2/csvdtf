@@ -47,7 +47,7 @@ timestamp,temperature,humidity
 c:\csvdtf>csvdtf.exe --input sample.csv  --output sample_out.csv
 ```
 
-Showing now the processed output csv file content
+Showing now the processed output csv file content (*note the column datetime)
 ```
 c:\csvdtf>type sample_out.csv
 timestamp,temperature,humidity,datetime
