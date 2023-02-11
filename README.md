@@ -1,17 +1,18 @@
 # csvdtf
 
-This script, named csvdtf.exe, is designed to process a CSV file that contains a column for the timestamp (in seconds since the epoch). 
+This executable utiliy app, named ****csvdtf.exe****, is designed to process a CSV file that contain a column named ****timestamp**** (in seconds since the epoch). 
 
-The script will read in the data from the specified CSV file, convert the timestamp column to a formatted datetime column, and then add the converted datetime as a new column to the data. The script will then export the processed data to a new CSV file with the added datetime column. 
+The script will read in the data from the specified CSV file, convert the ****timestamp**** column to a formatted ****datetime**** column, and then add the converted ****datetime**** as a new column to the data. The script will then export the processed data to a new CSV file with the added ****datetime**** column. 
 
-To use the script, the user must run it from the command line and specify the input CSV file as a command line argument, for example:
+To use the script, the user must run it from the command line and specify the input and output CSV filenames as a command line argument, for example:
  
 **How to use:**
 
 ```
-csvdtf.exe <inputfile.csv> <output.csv>
+csvdtf.exe --input <input_file.csv> --output <output_file.csv>
 ```
-Note that the script is only able to process CSV files that contain a column with the header "timestamp" in seconds since the epoch.
+**Note**
+this utility will only able to process CSV files that contain a column with the header ****timestamp**** in seconds since the epoch.
 
 **Sample Command**
 
@@ -47,7 +48,7 @@ timestamp,temperature,humidity
 c:\csvdtf>csvdtf.exe --input sample.csv  --output sample_out.csv
 ```
 
-Showing now the processed output csv file content
+***Showing now the processed output csv file content (Note the new column 'datetime')***
 ```
 c:\csvdtf>type sample_out.csv
 timestamp,temperature,humidity,datetime
@@ -57,3 +58,5 @@ timestamp,temperature,humidity,datetime
 1675951260,20.7,48,2023-02-09 14:01:00
 1675951680,20.3,44,2023-02-09 14:08:00
 ``` 
+
+***Credit:*** This application was developed by KMQ Tech TV (https://www.youtube.com/@kamoteqv2), a Youtube channel dedicated to teaching and improving DIY technology.
