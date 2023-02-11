@@ -21,7 +21,7 @@ c:\csvdtf>dir
  Volume in drive E is New Volume
  Volume Serial Number is D8B5-C2C0
 
- Directory of E:\python\csvdtf
+ Directory of c:\csvdtf
 
 02/11/2023  07:53 AM    <DIR>          .
 02/11/2023  07:53 AM    <DIR>          ..
@@ -44,7 +44,7 @@ timestamp,temperature,humidity
 
 ***Running the command with specified paramaters***
 ```
-c:\csvdtf>***csvdtf.exe*** --input sample.csv  --output sample_out.csv
+c:\csvdtf>csvdtf.exe --input sample.csv  --output sample_out.csv
 ```
 
 Showing now the processed output csv file content
