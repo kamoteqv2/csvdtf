@@ -44,7 +44,7 @@ timestamp,temperature,humidity
 
 ***Running the command with specified paramaters***
 ```
-c:\csvdtf>***csvdtf.exe*** --input sample.csv  --output sample_out.csv
+c:\csvdtf>csvdtf.exe --input sample.csv  --output sample_out.csv
 ```
 
 Showing now the processed output csv file content
