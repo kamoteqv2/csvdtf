@@ -12,7 +12,7 @@ To use the script, the user must run it from the command line and specify the in
 csvdtf.exe --input <input_file.csv> --output <output_file.csv>
 ```
 **Note**
-that the script is only able to process CSV files that contain a column with the header ****timestamp**** in seconds since the epoch.
+this utility will only able to process CSV files that contain a column with the header ****timestamp**** in seconds since the epoch.
 
 **Sample Command**
 
