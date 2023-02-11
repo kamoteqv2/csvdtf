@@ -15,8 +15,9 @@ Note that the script is only able to process CSV files that contain a column wit
 
 **Sample Command**
 
+Showing the sample csv and the executable file
 ```
-***c:\csvdtf>dir***
+c:\csvdtf>dir
  Volume in drive E is New Volume
  Volume Serial Number is D8B5-C2C0
 
@@ -32,7 +33,7 @@ Note that the script is only able to process CSV files that contain a column wit
 
 Showing the input csv file content
 ```
-***c:\csvdtf>type sample.csv***
+c:\csvdtf>type sample.csv
 timestamp,temperature,humidity
 1675950780,20.5,45
 1675951140,21.0,47
@@ -48,7 +49,7 @@ c:\csvdtf>***csvdtf.exe*** --input sample.csv  --output sample_out.csv
 
 Showing now the processed output csv file content
 ```
-***c:\csvdtf>type sample_out.csv***
+c:\csvdtf>type sample_out.csv
 timestamp,temperature,humidity,datetime
 1675950780,20.5,45,2023-02-09 13:53:00
 1675951140,21.0,47,2023-02-09 13:59:00
